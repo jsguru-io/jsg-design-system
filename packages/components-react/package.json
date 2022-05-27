@@ -1,0 +1,48 @@
+{
+  "name": "@jsgurucompany/jsg-components-react",
+  "sideEffects": false,
+  "version": "3.0.0-beta.106",
+  "description": "@jsgurucompany/jsg-components-react",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/telekom/scale",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telekom/scale.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean": "rimraf dist",
+    "compile": "yarn tsc",
+    "tsc": "tsc -p .",
+    "format": "prettier --write \"package.json\""
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "@types/react-dom": "^16.9.6",
+    "@types/vfile-message": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "setupTestFrameworkScriptFile": "<rootDir>/jest.setup.js",
+    "testPathIgnorePatterns": [
+      "node_modules",
+      "dist"
+    ]
+  }
+}
