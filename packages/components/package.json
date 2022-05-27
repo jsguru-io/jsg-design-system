@@ -1,6 +1,6 @@
 {
   "name": "@jsgurucompany/jsg-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSG is the digital design system for JSGuru products and experiences.",
   "homepage": "https://github.com/jsguru-io/jsg-design-system",
   "repository": {
@@ -70,8 +70,7 @@
     "@popperjs/core": "2.6.0",
     "@proyecto26/animatable-component": "^1.1.8",
     "@stencil/core": "^2.7.1",
-    "@telekom/design-tokens": "^1.0.0-alpha.23",
-    "@telekom/scale-design-tokens": "^1.0.0",
+    "@jsgurucompany/jsg-design-token": "^1.0.0",
     "classnames": "^2.2.6",
     "stencil-inline-svg": "^1.0.1",
     "web-animations-js": "^2.3.2"
