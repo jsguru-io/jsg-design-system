@@ -1,7 +1,7 @@
 {
   "name": "@jsgurucompany/jsg-components-sketch",
   "private": true,
-  "version": "3.0.0-beta.106",
+  "version": "1.0.0",
   "description": "",
   "license": "MPL-2.0",
   "scripts": {

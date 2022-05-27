@@ -1,7 +1,7 @@
 {
   "name": "@jsgurucompany/jsg-html-to-skecth",
   "private": true,
-  "version": "3.0.0-beta.106",
+  "version": "1.0.0",
   "description": "HTML to Sketch",
   "keywords": [
     "sketch",
