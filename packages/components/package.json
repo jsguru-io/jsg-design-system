@@ -1,11 +1,11 @@
 {
   "name": "@jsgurucompany/jsg-components",
   "version": "1.0.0",
-  "description": "Scale is the digital design system for Telekom products and experiences.",
-  "homepage": "https://github.com/telekom/scale",
+  "description": "JSG is the digital design system for JSGuru products and experiences.",
+  "homepage": "https://github.com/jsguru-io/jsg-design-system",
   "repository": {
     "type": "git",
-    "url": "https://github.com/telekom/scale.git"
+    "url": "https://github.com/jsguru-io/jsg-design-system.git"
   },
   "publishConfig": {
     "access": "public"
@@ -75,5 +75,6 @@
     "classnames": "^2.2.6",
     "stencil-inline-svg": "^1.0.1",
     "web-animations-js": "^2.3.2"
-  }
+  },
+  "gitHead": "543bcf3d7da627ea14940b8acce56cb77eb3cb47"
 }

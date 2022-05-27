@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Design Tokens for the Scale Design System",
-  "homepage": "https://github.com/telekom/scale",
+  "homepage": "https://github.com/jsguru-io/jsg-design-system",
   "repository": {
     "type": "git",
-    "url": "https://github.com/telekom/scale.git"
+    "url": "https://github.com/jsguru-io/jsg-design-system.git"
   },
   "publishConfig": {
     "access": "public"
@@ -27,5 +27,6 @@
   "license": "MPL-2.0",
   "dependencies": {
     "color": "^3.1.3"
-  }
+  },
+  "gitHead": "543bcf3d7da627ea14940b8acce56cb77eb3cb47"
 }

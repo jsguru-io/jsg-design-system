@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "description": "@jsgurucompany/jsg-components-react",
   "license": "MPL-2.0",
-  "homepage": "https://github.com/telekom/scale",
+  "homepage": "https://github.com/jsguru-io/jsg-design-system",
   "repository": {
     "type": "git",
-    "url": "https://github.com/telekom/scale.git"
+    "url": "https://github.com/jsguru-io/jsg-design-system.git"
   },
   "publishConfig": {
     "access": "public"
@@ -44,5 +44,6 @@
       "node_modules",
       "dist"
     ]
-  }
+  },
+  "gitHead": "543bcf3d7da627ea14940b8acce56cb77eb3cb47"
 }
